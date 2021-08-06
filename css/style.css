@@ -21,7 +21,6 @@
 body {
     font-family: var(--spartan-font);
     background: url("../images/bg-pattern-top-desktop.svg") top no-repeat, url("../images/bg-pattern-bottom-desktop.svg") bottom no-repeat;
-    height: 100vh;
 }
 
 /* TOP */
@@ -69,7 +68,7 @@ body {
 }
 
 .rating-stars > img {
-    width: 2vh;
+    width: 4vh;
 }
 
 .rating-text {
@@ -100,7 +99,7 @@ body {
 }
 
 .card {
-    padding: 4vh;
+    padding: 5vh;
     margin: 2vh 0;
     background-color: var(--dark-magenta);
     height: max-content;
@@ -113,30 +112,36 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 2vh;
 }
 
 .card-header .left {
-    margin: 2vh;
+    margin: 0;
 }
 .card-header .right {
-    margin: 2vh;
+    margin-left: 2vh;
 }
 
 .card-header .left > img{
     border-radius: 50% 50% 50% 50%;
-    width: 10vh;
+    width: 7vh;
+    margin: 0;
 }
 
 .card-header .right .name {
     font-weight: 700;
+    margin-bottom: .5vh;
 }
 
 .card-header .right .buyer {
     color: var(--soft-pink);
+    margin: 0;
 }
 
 .card-content > p {
     line-height: 1.5;
+    padding: 0;
+    margin: 0;
 }
 /* END BOTTOM */
 
@@ -144,7 +149,8 @@ body {
     /* TOP */
     .main {
         display: block;
-        margin: auto;
+        margin: 12vh auto 3.5vh auto;
+        max-height: max-content;
     }
 
     .top {
@@ -156,6 +162,7 @@ body {
 
     .heading {
         width: 55vh;
+        margin: auto auto auto 20vh;
     }
 
     .heading > h1 {
@@ -177,8 +184,8 @@ body {
     }
 
     .ratings {
-        width: 60vh;
-        margin-left: 20vh;
+        margin: auto 20vh auto auto ;
+        width: 70vh;
     }
 
     .rating {
@@ -186,27 +193,113 @@ body {
         flex-wrap: nowrap;
         align-items: flex-start;
         padding: .5vh 2vh;
+        margin: 1vh 0;
     }
 
     .rating1 {
+        display: flex;
         justify-content: flex-start;
     }
 
     .rating2 {
+        display: flex;
         justify-content: center;
     }
 
     .rating3 {
+        display: flex;
         justify-content: flex-end;
+    }
+    
+    .rating-stars {
+        padding-top: 1.65vh;
+        min-height: max-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
     .rating-stars > img{
         margin-left: 1vh;
+        width: 2vh;
     }
 
     .rating-text > p {
+        font-size: 1.8vh;
         margin-left: 2vh;
     }
 
     /* END TOP */
+
+    /* BOTTOM */
+    .bottom {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 310vh;
+        margin: 0 19vh;
+    }
+
+    .card {
+        margin: 0 2vh;
+        max-height: max-content;
+    }
+
+    .card-header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card-header .left {
+        margin: 0;
+    }
+    .card-header .right {
+        margin-left: 2vh;
+    }
+
+    .card-header .left > img{
+        border-radius: 50% 50% 50% 50%;
+        width: 5vh;
+        margin: 0;
+    }
+
+    .card-header .right .name {
+        font-weight: 700;
+        margin: .5vh;
+    }
+
+    .card-header .right .buyer {
+        color: var(--soft-pink);
+        margin: .5vh;
+    }
+
+    .card-content > p {
+        font-size: 1.65vh;
+        line-height: 1.5;
+    }
+
+    .card1 {
+        height: 35vh;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .card2 {
+        height: 35vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .card3 {
+        height: 35vh;
+        display: flex;
+        align-items: flex-end;
+    }
+    /* END BOTTOM */
 }

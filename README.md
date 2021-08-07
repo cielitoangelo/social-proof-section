@@ -1,6 +1,6 @@
 # Stats Preview Card Component
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social Proof Section on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-I have learned how to use flexbox without the help of BootStrap.
+I learned how to use viewport units like vh and vw, and also declaring variables.
 
 ## Author
 

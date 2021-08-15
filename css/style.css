@@ -17,6 +17,17 @@
     --spartan-font: 'Spartan', sans-serif;
 }
 
+
+.attribution {
+    font-size: 1.5vw;
+    text-align: center;
+    max-height: max-content;
+    padding: 2vw;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 /* MOBILE-FIRST */
 body {
     font-family: var(--spartan-font);
@@ -26,23 +37,23 @@ body {
 /* TOP */
 
 .top {
-    padding: 2vh 2vh;
+    padding: 2vw 2vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .heading > h1 {
-    font-size: 6vh;
+    font-size: 6vw;
     color: var(--dark-magenta);
     text-align: center;
     line-height: 1;
-    letter-spacing: -.5vh;
+    letter-spacing: -.5vw;
     font-weight: 700;
 }
 
 .heading > p {
-    font-size: 2vh;
+    font-size: 2vw;
     color: var(--dark-gray-magenta);
     text-align: center;
     line-height: 2;
@@ -50,17 +61,17 @@ body {
 }
 
 .ratings {
-    width: 60vh;
+    width: 60vw;
 }
 
 .rating {
     background-color: var(--light-gray-magenta);
-    border-radius: 1vh;
-    margin: 2vh 0;
+    border-radius: 1vw;
+    margin: 2vw 0;
 }
 
 .rating-stars {
-    padding-top: 2vh;
+    padding-top: 2vw;
     min-height: max-content;
     display: flex;
     flex-wrap: wrap;
@@ -68,7 +79,7 @@ body {
 }
 
 .rating-stars > img {
-    width: 4vh;
+    width: 4vw;
 }
 
 .rating-text {
@@ -79,7 +90,7 @@ body {
 }
 
 .rating-text > p {
-    font-size: 2vh;
+    font-size: 2vw;
     font-weight: 700;
 }
 
@@ -88,23 +99,23 @@ body {
 /* BOTTOM */
 
 .bottom {
-    padding: 2vh 2vh;
+    padding: 2vw 2vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .cards {
-    width: 60vh;
+    width: 60vw;
 }
 
 .card {
-    padding: 5vh;
-    margin: 2vh 0;
+    padding: 5vw;
+    margin: 2vw 0;
     background-color: var(--dark-magenta);
     height: max-content;
-    border-radius: 1vh;
-    font-size: 2vh;
+    border-radius: 1vw;
+    font-size: 2vw;
     color: var(--White);
 }
 
@@ -119,18 +130,18 @@ body {
     margin: 0;
 }
 .card-header .right {
-    margin-left: 2vh;
+    margin-left: 2vw;
 }
 
 .card-header .left > img{
     border-radius: 50% 50% 50% 50%;
-    width: 7vh;
+    width: 7vw;
     margin: 0;
 }
 
 .card-header .right .name {
     font-weight: 700;
-    margin-bottom: .5vh;
+    margin-bottom: .5vw;
 }
 
 .card-header .right .buyer {
@@ -149,7 +160,7 @@ body {
     /* TOP */
     .main {
         display: block;
-        margin: 12vh auto 3.5vh auto;
+        margin: 5vw auto 3.5vw auto;
         max-height: max-content;
     }
 
@@ -161,22 +172,22 @@ body {
     }
 
     .heading {
-        width: 55vh;
-        margin: auto auto auto 20vh;
+        width: 40vw;
+        margin: auto auto auto 12vw;
     }
 
     .heading > h1 {
-        font-size: 6vh;
+        font-size: 4vw;
         color: var(--dark-magenta);
         text-align: left;
         line-height: 1;
-        letter-spacing: -.5vh;
+        letter-spacing: -.5vw;
         font-weight: 700;
         margin-bottom: 0;
     }
 
     .heading > p {
-        font-size: 1.8vh;
+        font-size: 1vw;
         color: var(--dark-gray-magenta);
         text-align: left;
         line-height: 1.5;
@@ -184,16 +195,16 @@ body {
     }
 
     .ratings {
-        margin: auto 20vh auto auto ;
-        width: 70vh;
+        margin: auto 12vw auto auto ;
+        width: 60vw;
     }
 
     .rating {
         display: flex;
         flex-wrap: nowrap;
         align-items: flex-start;
-        padding: .5vh 2vh;
-        margin: 1vh 0;
+        padding: .5vw 2vw;
+        margin: 1vw 0;
     }
 
     .rating1 {
@@ -212,7 +223,7 @@ body {
     }
     
     .rating-stars {
-        padding-top: 1.65vh;
+        padding-top: 1vw;
         min-height: max-content;
         display: flex;
         flex-wrap: wrap;
@@ -220,13 +231,13 @@ body {
     }
     
     .rating-stars > img{
-        margin-left: 1vh;
-        width: 2vh;
+        margin-left: .3vw;
+        width: 1.3vw;
     }
 
     .rating-text > p {
-        font-size: 1.8vh;
-        margin-left: 2vh;
+        font-size: 1.1vw;
+        margin-left: 1vw;
     }
 
     /* END TOP */
@@ -240,14 +251,15 @@ body {
     .cards {
         display: flex;
         flex-wrap: nowrap;
-        justify-content: flex-start;
-        width: 310vh;
-        margin: 0 19vh;
+        justify-content: space-between;
+        gap: 2vw;
+        width: 70vw;
     }
 
     .card {
-        margin: 0 2vh;
-        max-height: max-content;
+        max-height: fit-content;
+        font-size: 1vw;
+        padding: 3vw;
     }
 
     .card-header {
@@ -260,46 +272,50 @@ body {
         margin: 0;
     }
     .card-header .right {
-        margin-left: 2vh;
+        margin-left: 0;
     }
 
     .card-header .left > img{
         border-radius: 50% 50% 50% 50%;
-        width: 5vh;
+        width: 3vw;
         margin: 0;
     }
 
     .card-header .right .name {
         font-weight: 700;
-        margin: .5vh;
+        margin: .5vw;
     }
 
     .card-header .right .buyer {
         color: var(--soft-pink);
-        margin: .5vh;
+        margin: .5vw;
     }
 
     .card-content > p {
-        font-size: 1.65vh;
+        font-size: 1vw;
         line-height: 1.5;
     }
 
     .card1 {
-        height: 35vh;
+        height: 35vw;
         display: flex;
         align-items: flex-start;
     }
 
     .card2 {
-        height: 35vh;
+        height: 35vw;
         display: flex;
         align-items: center;
     }
 
     .card3 {
-        height: 35vh;
+        height: 35vw;
         display: flex;
         align-items: flex-end;
+    }
+
+    .attribution {
+        font-size: 1vw;
     }
     /* END BOTTOM */
 }
